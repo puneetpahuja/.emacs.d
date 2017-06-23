@@ -1,0 +1,36 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("brave"
+ (filename . "/home/puneet/code/geekskool/brave_and_true/")
+ (presel . "/home/puneet/code/geekskool/brave_and_true/.")
+ (handler . helm-ff-bookmark-jump)
+ (annotation . ""))
+("geekskool"
+ (filename . "/home/puneet/code/geekskool/")
+ (presel . "/home/puneet/code/geekskool/seqingclojure")
+ (handler . helm-ff-bookmark-jump))
+("emacs"
+ (filename . "/home/puneet/.emacs.d/")
+ (presel . "/home/puneet/.emacs.d/.")
+ (handler . helm-ff-bookmark-jump))
+("top"
+ (filename . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/")
+ (presel . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src")
+ (handler . helm-ff-bookmark-jump))
+("src"
+ (filename . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/")
+ (presel . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/core.clj")
+ (handler . helm-ff-bookmark-jump))
+("gen"
+ (filename . "~/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/core.clj")
+ (front-context-string . "d+]?\" code)]\n   ")
+ (rear-context-string . "\"^[+-]?\\d+[.]?[\\")
+ (position . 717))
+("convert"
+ (filename . "~/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/ast_converter.clj")
+ (front-context-string)
+ (rear-context-string . "ain \"fact.clj\")\n")
+ (position . 7325))
+)
