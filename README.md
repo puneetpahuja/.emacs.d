@@ -1,7 +1,3 @@
-# this is an emacs config
+# My emacs config
 
-If you're new to emacs, check out
-[this introductory tutorial](http://www.braveclojure.com/basic-emacs/)!
-
-I've tried to separate everything logically and document the purpose
-of every line. [`init.el`](./init.el) acts as a kind of table of contents.
+Modified from Daniel Higginbotham's config : https://github.com/flyingmachine/emacs.d
