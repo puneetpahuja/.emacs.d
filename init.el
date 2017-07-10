@@ -200,7 +200,7 @@
  ;    (clojure-mode scss-mode yaml-mode web-mode use-package thesaurus tagedit smex rainbow-delimiters php-mode noflet markdown-mode magit ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haskell-mode haml-mode git-gutter exec-path-from-shell enh-ruby-mode dockerfile-mode csharp-mode crux company color-theme-sanityinc-tomorrow coffee-mode clj-refactor aggressive-indent ag adoc-mode adjust-parens ack-and-a-half))))
   '(package-selected-packages
    (quote
-    (clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode magit ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
+    (clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
 
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
@@ -302,8 +302,8 @@ Similar to how `quoted-insert' works in a regular buffer."
 
 ;(add-hook 'helm-major-mode-hook 'my-buffer-face-mode-variable)
 
-(find-file "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/ast_converter.clj")
-(cider-jack-in)
+;(find-file "/home/puneet/code/geekskool/best_plan/src/best_plan/core.clj")
+;(cider-jack-in)
 (global-set-key (kbd "C-c M-r") 'cider-repl-clear-buffer)
 (setq powerline-arrow-shape 'arrow)
 ;(setq warning-minimum-level :emergency)
@@ -330,5 +330,27 @@ Similar to how `quoted-insert' works in a regular buffer."
 (global-set-key [(shift f3)] 'highlight-symbol-prev)
 (global-set-key [(meta shift f3)] 'highlight-symbol-query-replace)
 
+
+
 ;; (define-key company-mode-map [remap indent-for-tab-command]
 ;;   'company-indent-for-tab-command)
+(defun after-packages-loaded-hook ()
+  (require 'magit)
+  (setq magit-auto-revert-mode nil))
+(add-hook 'after-init-hook
+          #'(lambda ()
+              (after-packages-loaded-hook)))
+
+
+;; make git commit message 72 columns wide
+(use-package git-commit
+  :ensure nil
+  :preface
+  (defun me/git-commit-set-fill-column ()
+    (setq-local comment-auto-fill-only-comments nil)
+    (setq fill-column 72))
+  :config
+  (advice-add 'git-commit-turn-on-auto-fill :before #'me/git-commit-set-fill-column))
+
+(add-hook 'before-save-hook 'whitespace-cleanup)
+(desktop-save-mode 1)

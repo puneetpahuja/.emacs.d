@@ -2,7 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("brave"
+(("core"
+ (filename . "~/code/geekskool/best_plan/src/best_plan/core.clj")
+ (front-context-string)
+ (rear-context-string . "ello, World!\"))\n")
+ (position . 125))
+("misc"
+ (filename . "~/code/geekskool/misc_stuff")
+ (front-context-string)
+ (rear-context-string . "ojs ~/test/clojs")
+ (position . 904))
+("log"
+ (filename . "/home/puneet/code/geekskool/log")
+ (front-context-string)
+ (rear-context-string . " same as `def`)\n")
+ (position . 10991))
+("brave"
  (filename . "/home/puneet/code/geekskool/brave_and_true/")
  (presel . "/home/puneet/code/geekskool/brave_and_true/.")
  (handler . helm-ff-bookmark-jump)
@@ -16,20 +31,20 @@
  (presel . "/home/puneet/.emacs.d/.")
  (handler . helm-ff-bookmark-jump))
 ("top"
- (filename . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/")
+ (filename . "/home/puneet/code/geekskool/clojs")
  (presel . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src")
  (handler . helm-ff-bookmark-jump))
 ("src"
- (filename . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/")
+ (filename . "/home/puneet/code/geekskool/clojs/src/clojs")
  (presel . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/core.clj")
  (handler . helm-ff-bookmark-jump))
 ("gen"
- (filename . "~/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/core.clj")
+ (filename . "/home/puneet/code/geekskool/clojs/src/clojs/ast_generator.clj")
  (front-context-string . "d+]?\" code)]\n   ")
  (rear-context-string . "\"^[+-]?\\d+[.]?[\\")
  (position . 717))
 ("convert"
- (filename . "~/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/ast_converter.clj")
+ (filename . "/home/puneet/code/geekskool/clojs/src/clojs/ast_converter.clj")
  (front-context-string)
  (rear-context-string . "ain \"fact.clj\")\n")
  (position . 7325))
