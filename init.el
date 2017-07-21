@@ -303,7 +303,7 @@ Similar to how `quoted-insert' works in a regular buffer."
 ;(add-hook 'helm-major-mode-hook 'my-buffer-face-mode-variable)
 
 ;(find-file "/home/puneet/code/geekskool/best_plan/src/best_plan/core.clj")
-;(cider-jack-in)
+
 (global-set-key (kbd "C-c M-r") 'cider-repl-clear-buffer)
 (setq powerline-arrow-shape 'arrow)
 ;(setq warning-minimum-level :emergency)
@@ -354,3 +354,7 @@ Similar to how `quoted-insert' works in a regular buffer."
 
 (add-hook 'before-save-hook 'whitespace-cleanup)
 (desktop-save-mode 1)
+(setq desktop-path '("~/.emacs.d/desktop"))
+(setq desktop-dirname "~/.emacs.d/desktop")
+(setq desktop-base-file-name "emacs-desktop")
+; (cider-jack-in)

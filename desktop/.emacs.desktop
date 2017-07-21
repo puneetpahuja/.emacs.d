@@ -1,0 +1,107 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Jul 11 00:04:23 2017
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22883 51375 291217 299000) (desktop . "206") "puneet@joy" nil nil ((((font-backend xft x) (font . "-MS  -Consolas-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 0) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#0FB300") (sticky) (environment) (powerline-cache) (frameset--id . "DD25-366A-796A-9186") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 57) (width . 212) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1920) (pixel-height . 1012) (total-width . 213) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 963) (pixel-height . 1012) (total-width . 107) (total-height . 56) (normal-height . 1.0) (normal-width . 0.5015625) (buffer "log" (selected) (hscroll . 0) (fringes 9 0 nil) (margins 3) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 13758) (start . 12888))) (leaf (last . t) (pixel-width . 957) (pixel-height . 1012) (total-width . 106) (total-height . 56) (normal-height . 1.0) (normal-width . 0.4984375) (buffer "core.clj" (selected . t) (hscroll . 0) (fringes 9 0 nil) (margins 2) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 479) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/puneet/.emacs.d/.git/MERGE_MSG" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "~/.emacs.d/ido.last" "~/.emacs.d/init.el" "~/code/geekskool/best_plan/src/best_plan/recharges.clj" "~/code/geekskool/best_plan/src/best_plan/core.clj" "~/code/geekskool/clojs/src/clojs/clojs.clj" "~/code/geekskool/cftbat-code-master/13/code.clj" "~/Downloads/talktime plan/code/recharges.lisp" "~/Downloads/talktime plan/code/main.lsp" "/usr/share/doc/hyperspec/Data/Map_Sym.txt" "~/code/geekskool/misc_stuff" "~/.emacs.d/bookmarks" "~/code/geekskool/log" "~/code/geekskool/clojs/src/clojs/ast_generator.clj" "~/code/geekskool/clojs/project.clj" "~/code/geekskool/clojs/README.md" "~/code/geekskool/clojs/src/clojs/utilities.clj" "~/code/geekskool/use_clojs/src/use_clojs/core.clj" "~/.lein/profiles.clj" "~/code/geekskool/web_dev_clojure/ring-app/project.clj" "~/code/geekskool/clojs/resources/macros"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/puneet/code/geekskool/best_plan/src/best_plan/core.clj"
+  "core.clj"
+  'clojure-mode
+  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  479
+  '(479 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/puneet/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode auto-revert-mode company-mode rainbow-delimiters-mode)
+  10836
+  '(12533 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/puneet/code/geekskool/misc_stuff"
+  "misc_stuff"
+  'fundamental-mode
+  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode company-mode)
+  475
+  '(494 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/puneet/code/geekskool/log"
+  "log"
+  'fundamental-mode
+  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode company-mode)
+  13758
+  '(14166 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/puneet/code/geekskool/best_plan/src/best_plan/recharges.clj"
+  "recharges.clj"
+  'clojure-mode
+  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  2146
+  '(193 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/puneet/Downloads/talktime plan/code/main.lsp"
+  "main.lsp"
+  'lisp-mode
+  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode eldoc-mode paredit-mode company-mode rainbow-delimiters-mode slime-mode)
+  1907
+  '(805 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/puneet/code/geekskool/cftbat-code-master/13/code.clj"
+  "code.clj"
+  'clojure-mode
+  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  3392
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/share/doc/hyperspec/Data/Map_Sym.txt"
+  "Map_Sym.txt"
+  'text-mode
+  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode company-mode)
+  32371
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

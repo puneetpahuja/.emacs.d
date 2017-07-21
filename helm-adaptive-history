@@ -1,3 +1,3 @@
 ;; -*- mode: emacs-lisp -*-
 ;; History entries used for helm adaptive display.
-(setq helm-adaptive-history (quote (("Bookmark helm-find-files sessions" ("src" ("sr" . 2)) ("top" ("top" . 9) ("to" . 2)) ("geekskool" ("gee" . 4)) ("emacs" ("ema" . 2)) ("brave" ("bra" . 1))) ("Bookmark Files&Directories" ("log" ("log" . 1) ("lo\\" . 1) ("lo" . 1)) ("convert" ("con" . 1) ("" . 4)) ("gen" ("gen" . 3) ("ge" . 1))) ("*helm grep extensions*" ("*" ("" . 1))))))
+(setq helm-adaptive-history (quote (("Bookmark helm-find-files sessions" ("top" ("top" . 10) ("to" . 2)) ("src" ("sr" . 2)) ("geekskool" ("gee" . 4)) ("emacs" ("ema" . 2)) ("brave" ("bra" . 1))) ("Bookmark Files&Directories" ("log" ("lo" . 3) ("log" . 1) ("lo\\" . 1)) ("gen" ("gen" . 4) ("ge" . 1)) ("convert" ("con" . 1) ("" . 4))) ("*helm grep extensions*" ("*" ("" . 1))))))
