@@ -47,6 +47,8 @@
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
     paredit
 
+    fill-column-indicator
+
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
     clojure-mode
@@ -358,3 +360,36 @@ Similar to how `quoted-insert' works in a regular buffer."
 (setq desktop-dirname "~/.emacs.d/desktop")
 (setq desktop-base-file-name "emacs-desktop")
 ; (cider-jack-in)
+
+;; ruler fci
+
+(setq-default fill-column 80)
+
+(require 'fill-column-indicator)
+
+(define-globalized-minor-mode global-fci-mode fci-mode
+  (lambda ()
+    (if (and
+         (not (string-match "^\*.*\*$" (buffer-name)))
+         (not (eq major-mode 'dired-mode)))
+        (fci-mode 1))))
+(global-fci-mode 1)
+
+
+(defvar-local company-fci-mode-on-p nil)
+
+(defun company-turn-off-fci (&rest ignore)
+  (when (boundp 'fci-mode)
+    (setq company-fci-mode-on-p fci-mode)
+    (when fci-mode (fci-mode -1))))
+
+(defun company-maybe-turn-on-fci (&rest ignore)
+  (when company-fci-mode-on-p (fci-mode 1)))
+
+(add-hook 'company-completion-started-hook 'company-turn-off-fci)
+(add-hook 'company-completion-finished-hook 'company-maybe-turn-on-fci)
+(add-hook 'company-completion-cancelled-hook 'company-maybe-turn-on-fci)
+
+
+(savehist-mode 1)
+(add-to-list 'savehist-additional-variables 'kill-ring)

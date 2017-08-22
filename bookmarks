@@ -2,11 +2,23 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("core"
- (filename . "~/code/geekskool/best_plan/src/best_plan/core.clj")
- (front-context-string)
- (rear-context-string . "ello, World!\"))\n")
- (position . 125))
+(("cur"
+ (filename . "~/code/geekskool/best_plan/src/best_plan/csv_gen.clj")
+ (front-context-string . "csv-file (str cs")
+ (rear-context-string . "\")))]\n    (let [")
+ (position . 2428))
+("res"
+ (filename . "/home/puneet/code/geekskool/best_plan/resources/")
+ (presel . "/home/puneet/code/geekskool/best_plan/resources/.")
+ (handler . helm-ff-bookmark-jump))
+("top"
+ (filename . "/home/puneet/code/geekskool/best_plan/")
+ (presel . "/home/puneet/code/geekskool/best_plan/src")
+ (handler . helm-ff-bookmark-jump))
+("src"
+ (filename . "/home/puneet/code/geekskool/best_plan/src/best_plan/")
+ (presel . "/home/puneet/code/geekskool/best_plan/src/best_plan/csv_gen.clj")
+ (handler . helm-ff-bookmark-jump))
 ("misc"
  (filename . "~/code/geekskool/misc_stuff")
  (front-context-string)
@@ -20,8 +32,7 @@
 ("brave"
  (filename . "/home/puneet/code/geekskool/brave_and_true/")
  (presel . "/home/puneet/code/geekskool/brave_and_true/.")
- (handler . helm-ff-bookmark-jump)
- (annotation . ""))
+ (handler . helm-ff-bookmark-jump))
 ("geekskool"
  (filename . "/home/puneet/code/geekskool/")
  (presel . "/home/puneet/code/geekskool/seqingclojure")
@@ -29,14 +40,6 @@
 ("emacs"
  (filename . "/home/puneet/.emacs.d/")
  (presel . "/home/puneet/.emacs.d/.")
- (handler . helm-ff-bookmark-jump))
-("top"
- (filename . "/home/puneet/code/geekskool/clojs")
- (presel . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src")
- (handler . helm-ff-bookmark-jump))
-("src"
- (filename . "/home/puneet/code/geekskool/clojs/src/clojs")
- (presel . "/home/puneet/code/geekskool/seqingclojure/clojure-parser/src/clojure_parser/core.clj")
  (handler . helm-ff-bookmark-jump))
 ("gen"
  (filename . "/home/puneet/code/geekskool/clojs/src/clojs/ast_generator.clj")

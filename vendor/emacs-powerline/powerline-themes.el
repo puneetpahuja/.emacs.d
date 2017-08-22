@@ -262,13 +262,13 @@
                    ;(powerline-raw "  %z " mode-line)
                    (powerline-raw "  = " mode-line)))
                (powerline-buffer-id `(mode-line-buffer-id ,mode-line) 'l)
-             
-             
+
+
                (when (and vc-mode buffer-file-name)
                  (let ((backend (vc-backend buffer-file-name)))
                    (when backend
                      (concat (powerline-raw " " mode-line 'l)
-                             (powerline-raw (format "%s" (vc-working-revision buffer-file-name backend)))
+                             (powerline-raw (format "|- %s" (vc-working-revision buffer-file-name backend)))
                              (powerline-raw " " mode-line)))))))
         (rhs (list ;(powerline-raw '(10 "%i"))
                    (powerline-raw global-mode-string mode-line 'r)
