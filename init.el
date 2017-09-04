@@ -122,12 +122,7 @@
 ;;
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#FFFFFF" :foreground "#333333" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "MS  " :family "Consolas")))))
+
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
@@ -167,6 +162,9 @@
 
 ;; Langauage-specific
 (load "setup-clojure.el")
+
+;; (load "pragmatapro-prettify-symbols-v0.824.el")
+;; (load "pragmatapro-font-lock-symbols-v2.el")
 ;(load "setup-js.el")
 ;(load "setup-css.el")
 ;(load "setup-yaml.el")
@@ -187,6 +185,8 @@
    [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    (vector "#c5c8c6" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#8abeb7" "#373b41"))
+ '(ansi-term-color-vector
+   (vector "#1B2B34" "#EC5f67" "#99C794" "#FAC863" "#6699CC" "#C594C5" "#6699CC" "#C0C5CE"))
  '(coffee-tab-width 2)
  '(compilation-message-face (quote default))
  '(cua-global-mark-cursor-color "#2aa198")
@@ -196,11 +196,8 @@
  '(custom-enabled-themes (quote (leuven)))
  '(custom-safe-themes
    (quote
-    ("3b189c29215a842875c90d59da5dae09c8a3a82a6026da9f35b1130e35d4875e" default)))
- ; '(package-selected-packages
- ;   (quote
- ;    (clojure-mode scss-mode yaml-mode web-mode use-package thesaurus tagedit smex rainbow-delimiters php-mode noflet markdown-mode magit ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haskell-mode haml-mode git-gutter exec-path-from-shell enh-ruby-mode dockerfile-mode csharp-mode crux company color-theme-sanityinc-tomorrow coffee-mode clj-refactor aggressive-indent ag adoc-mode adjust-parens ack-and-a-half))))
-  '(package-selected-packages
+    ("a4340c197a450c77c729cad236b5f3ca88aaf974e91a7af2d2e7ae7bb5f96720" "6b20d669fcbcd79c6d0f3db36a71af1b88763246d3550a0c361866adecb38a9e" "3a08a6a704a490481c0145ec5cd67beb95a2596f611e09ad6c85be6353d2a7dc" "4486ade2acbf630e78658cd6235a5c6801090c2694469a2a2b4b0e12227a64b9" "3b189c29215a842875c90d59da5dae09c8a3a82a6026da9f35b1130e35d4875e" default)))
+ '(package-selected-packages
    (quote
     (clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
 
@@ -393,3 +390,38 @@ Similar to how `quoted-insert' works in a regular buffer."
 
 (savehist-mode 1)
 (add-to-list 'savehist-additional-variables 'kill-ring)
+
+;; hideshow - code folding
+
+(defun toggle-selective-display (column)
+      (interactive "P")
+      (set-selective-display
+       (or column
+           (unless selective-display
+             (1+ (current-column))))))
+
+(defun toggle-hiding (column)
+      (interactive "P")
+      (if hs-minor-mode
+          (if (condition-case nil
+                  (hs-toggle-hiding)
+                (error t))
+              (hs-show-all))
+        (toggle-selective-display column)))
+
+(load-library "hideshow")
+(global-set-key (kbd "C-+") 'toggle-hiding)
+(global-set-key (kbd "C-\\") 'toggle-selective-display)
+
+
+(add-hook 'clojure-mode-hook 'hs-minor-mode)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:height 130 :family "pfdin")))))
+;;(set-default-font "iosevka 11 light")
+;; (setq line-move-visual nil)
+;; (setq-default auto-fill-function 'do-auto-fill)
