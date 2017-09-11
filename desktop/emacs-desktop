@@ -2,381 +2,51 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Sep 11 11:44:13 2017
+;; Created Mon Sep 11 12:16:40 2017
 ;; Desktop file format version 206
 ;; Emacs version 24.5.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22966 10677 774270 784000) (desktop . "206") "puneet@joy" nil nil ((((font-backend xft x) (font . "-prch-PFDin-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (mouse-color . "black") (border-color . "#65737E") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 0) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . fullheight) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#0FB300") (sticky) (environment) (powerline-cache) (frameset--id . "0818-B928-6663-5BD0") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 57) (width . 127) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 27) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1159) (pixel-height . 1011) (total-width . 128) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (buffer "powerline-themes.el" (selected . t) (hscroll . 0) (fringes 9 0 nil) (margins 4) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 18008) (start . 15628))))])
+(setq desktop-saved-frameset [frameset 1 (22966 12624 463925 892000) (desktop . "206") "puneet@joy" nil nil ((((font-backend xft x) (font . "-prch-PFDin-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (mouse-color . "black") (border-color . "#65737E") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 0) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#0FB300") (sticky) (environment) (powerline-cache) (frameset--id . "0818-B928-6663-5BD0") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 57) (width . 212) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 27) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1920) (pixel-height . 1012) (total-width . 213) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (buffer "powerline-themes.el" (selected . t) (hscroll . 0) (fringes 9 0 nil) (margins 4) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("delete" "combina"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/code/geekskool/haskell_first_principles/ch2.hs" "/home/puneet/code/geekskool/haskell_first_principles/.git/COMMIT_EDITMSG" "~/code/geekskool/haskell_first_principles/ch1.hs" "~/code/geekskool/haskell_first_principles/ch1" "/home/puneet/code/geekskool/best_plan/.git/MERGE_MSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/a" "~/.emacs.d/vendor/emacs-powerline/powerline.el" "~/.face" "~/.emacs.d/vendor/emacs-powerline/powerline-themes.el" "~/code/geekskool/web_dev_clojure/guestbook/resources/migrations/20170628164847-guestbook.up.sql" "~/code/geekskool/best_plan/resources/public/input_materialize.html" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "~/code/geekskool/clojs/src/clojs/monads.clj" "~/code/geekskool/clojs/src/clojs/clojs.clj" "~/code/geekskool/clojs/src/clojs/utilities.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/api_dataweave.clj" "~/code/geekskool/best_plan/.gitignore" "~/code/geekskool/best_plan/src/best_plan/api_datayuge.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/Procfile" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/test.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/convert_csv.clj" "~/code/geekskool/best_plan/src/best_plan/utils.clj" "~/code/geekskool/best_plan/src/best_plan/user.clj" "~/code/geekskool/best_plan/src/best_plan/server.clj" "~/code/geekskool/best_plan/src/best_plan/save_jsons_datayuge.clj" "~/code/geekskool/best_plan/src/best_plan/save_jsons_dataweave.clj" "~/code/geekskool/best_plan/src/best_plan/recharge.clj" "~/code/geekskool/best_plan/src/best_plan/gen_csv.clj" "~/code/geekskool/best_plan/src/best_plan/fs.clj" "~/code/geekskool/best_plan/src/best_plan/env.clj" "~/code/geekskool/best_plan/src/best_plan/core.clj" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/csv_gen.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "~/.emacs.d/init.el" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/.emacs.d/bookmarks" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/process_api_data.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/get_api_data.clj" "~/code/geekskool/best_plan/src/best_plan/hr.clj" "~/Downloads/books/clojurescript/web dev clojurescript/make_html.clj" "~/code/geekskool/web_dev_clojure/guestbook/project.clj" "~/code/geekskool/web_dev_clojure/guestbook/profiles.clj" "~/code/geekskool/web_dev_clojure/guestbook/resources/templates/base.html" "~/code/geekskool/web_dev_clojure/guestbook/resources/templates/home.html" "~/code/geekskool/web_dev_clojure/ring-app/src/ring_app/core.clj" "~/code/geekskool/web_dev_clojure/ring-app/project.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/recharges.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/.lein/profiles.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/Downloads/ringtest-master/project.clj" "~/Downloads/ringtest-master/src/ringtest.clj" "~/code/geekskool/best_plan/resources/plans/KA/airtel/talktime" "~/code/geekskool/best_plan/resources/plans/KA/airtel/minutes" "~/code/geekskool/best_plan/resources/plans/KA/airtel/cost_cutter" "~/code/geekskool/best_plan/project.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/server" "~/code/geekskool/web_best_plan/best_plan/src/best_plan/core.clj" "~/code/geekskool/web_best_plan/best_plan/project.clj" "~/code/geekskool/web_best_plan/best_plan/resources/templates/home.html" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/cftbat-code-master/13/code.clj" "/home/puneet/code/geekskool/todo_clojs/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/clojs/.git/COMMIT_EDITMSG" "~/code/geekskool/land_of_lisp/text_adventure_game.lisp" "~/code/geekskool/todo_clojs/ser.clj" "~/code/geekskool/clojs/resources/macros" "~/code/geekskool/todo_clojs/server.js" "~/code/geekskool/todo_clojs/server.clj" "~/Downloads/server.js" "~/code/geekskool/json_parser/src/json_parser/core.clj" "~/code/geekskool/todo_clojs/public/main.js" "~/Downloads/main.js" "~/code/geekskool/todo_clojs/public/main.clj" "/home/puneet/code/geekskool/clojs/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/clojs/.git/COMMIT_EDITMSG" "~/code/geekskool/clojs/src/clojs/ast_generator.clj" "~/code/geekskool/todo_clojs/public/index.html" "~/code/geekskool/clojs/project.clj" "~/.emacs.d/ido.last" "~/Downloads/talktime plan/code/main.lsp" "/usr/share/doc/hyperspec/Data/Map_Sym.txt" "~/code/geekskool/log"))
+(setq file-name-history '("~/.emacs.d/init.el" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "~/code/geekskool/haskell_first_principles/ch2.hs" "/home/puneet/code/geekskool/haskell_first_principles/.git/COMMIT_EDITMSG" "~/code/geekskool/haskell_first_principles/ch1.hs" "~/code/geekskool/haskell_first_principles/ch1" "/home/puneet/code/geekskool/best_plan/.git/MERGE_MSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/a" "~/.emacs.d/vendor/emacs-powerline/powerline.el" "~/.face" "~/.emacs.d/vendor/emacs-powerline/powerline-themes.el" "~/code/geekskool/web_dev_clojure/guestbook/resources/migrations/20170628164847-guestbook.up.sql" "~/code/geekskool/best_plan/resources/public/input_materialize.html" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "~/code/geekskool/clojs/src/clojs/monads.clj" "~/code/geekskool/clojs/src/clojs/clojs.clj" "~/code/geekskool/clojs/src/clojs/utilities.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/api_dataweave.clj" "~/code/geekskool/best_plan/.gitignore" "~/code/geekskool/best_plan/src/best_plan/api_datayuge.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/Procfile" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/test.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/convert_csv.clj" "~/code/geekskool/best_plan/src/best_plan/utils.clj" "~/code/geekskool/best_plan/src/best_plan/user.clj" "~/code/geekskool/best_plan/src/best_plan/server.clj" "~/code/geekskool/best_plan/src/best_plan/save_jsons_datayuge.clj" "~/code/geekskool/best_plan/src/best_plan/save_jsons_dataweave.clj" "~/code/geekskool/best_plan/src/best_plan/recharge.clj" "~/code/geekskool/best_plan/src/best_plan/gen_csv.clj" "~/code/geekskool/best_plan/src/best_plan/fs.clj" "~/code/geekskool/best_plan/src/best_plan/env.clj" "~/code/geekskool/best_plan/src/best_plan/core.clj" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/csv_gen.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/.emacs.d/bookmarks" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/process_api_data.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/get_api_data.clj" "~/code/geekskool/best_plan/src/best_plan/hr.clj" "~/Downloads/books/clojurescript/web dev clojurescript/make_html.clj" "~/code/geekskool/web_dev_clojure/guestbook/project.clj" "~/code/geekskool/web_dev_clojure/guestbook/profiles.clj" "~/code/geekskool/web_dev_clojure/guestbook/resources/templates/base.html" "~/code/geekskool/web_dev_clojure/guestbook/resources/templates/home.html" "~/code/geekskool/web_dev_clojure/ring-app/src/ring_app/core.clj" "~/code/geekskool/web_dev_clojure/ring-app/project.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/recharges.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/.lein/profiles.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/Downloads/ringtest-master/project.clj" "~/Downloads/ringtest-master/src/ringtest.clj" "~/code/geekskool/best_plan/resources/plans/KA/airtel/talktime" "~/code/geekskool/best_plan/resources/plans/KA/airtel/minutes" "~/code/geekskool/best_plan/resources/plans/KA/airtel/cost_cutter" "~/code/geekskool/best_plan/project.clj" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/best_plan/src/best_plan/server" "~/code/geekskool/web_best_plan/best_plan/src/best_plan/core.clj" "~/code/geekskool/web_best_plan/best_plan/project.clj" "~/code/geekskool/web_best_plan/best_plan/resources/templates/home.html" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "/home/puneet/.emacs.d/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/best_plan/.git/COMMIT_EDITMSG" "~/code/geekskool/cftbat-code-master/13/code.clj" "/home/puneet/code/geekskool/todo_clojs/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/clojs/.git/COMMIT_EDITMSG" "~/code/geekskool/land_of_lisp/text_adventure_game.lisp" "~/code/geekskool/todo_clojs/ser.clj" "~/code/geekskool/clojs/resources/macros" "~/code/geekskool/todo_clojs/server.js" "~/code/geekskool/todo_clojs/server.clj" "~/Downloads/server.js" "~/code/geekskool/json_parser/src/json_parser/core.clj" "~/code/geekskool/todo_clojs/public/main.js" "~/Downloads/main.js" "~/code/geekskool/todo_clojs/public/main.clj" "/home/puneet/code/geekskool/clojs/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/clojs/.git/COMMIT_EDITMSG" "~/code/geekskool/clojs/src/clojs/ast_generator.clj" "~/code/geekskool/todo_clojs/public/index.html" "~/code/geekskool/clojs/project.clj" "~/.emacs.d/ido.last" "~/Downloads/talktime plan/code/main.lsp" "/usr/share/doc/hyperspec/Data/Map_Sym.txt"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
   "/home/puneet/.emacs.d/vendor/emacs-powerline/powerline-themes.el"
   "powerline-themes.el"
   'emacs-lisp-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode company-mode auto-revert-mode)
-  18008
-  '(17636 nil)
+  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode auto-revert-mode company-mode)
+  1
+  '(15909 nil)
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/haskell_first_principles/ch1"
-  "ch1"
-  'shell-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode company-mode auto-revert-mode)
-  282
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/puneet/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(auto-fill-mode visual-line-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode company-mode auto-revert-mode)
-  13312
-  '(14210 nil)
+  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode auto-revert-mode company-mode)
+  12676
+  '(12676 nil)
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/haskell_first_principles/ch2.hs"
-  "ch2.hs"
-  'haskell-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode rainbow-delimiters-mode company-mode hindent-mode)
-  225
-  '(122 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/haskell_first_principles/ch2"
-  "ch2"
-  'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode company-mode)
-  54
-  '(54 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/process.geek"
-  "process.geek"
-  'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode company-mode)
-  561
-  '(561 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/.emacs.d/customizations/setup-haskell.el"
-  "setup-haskell.el"
-  'emacs-lisp-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode company-mode auto-revert-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  nil
-  "customizations"
-  'dired-mode
-  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode company-mode)
-  1249
-  '(nil nil)
-  t
-  '("/home/puneet/.emacs.d/customizations/")
-  nil)
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/server.clj"
-  "server.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  3876
-  '(470 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/resources/public/input_materialize.html"
-  "input_materialize.html"
-  'html-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode company-mode auto-revert-mode)
-  173
-  '(173 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/convert_csv.clj"
-  "convert_csv.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  5520
-  '(156 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/fs.clj"
-  "fs.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  493
-  '(493 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/core.clj"
-  "core.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  991
-  '(1082 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/env.clj"
-  "env.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  3127
-  '(80 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/utils.clj"
-  "utils.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  20
-  '(20 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/.emacs.d/elpa/clojure-mode-20161121.311/clojure-mode.el"
-  "clojure-mode.el"
-  'emacs-lisp-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode company-mode auto-revert-mode)
-  12046
-  '(12039 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/.emacs.d/vendor/emacs-powerline/powerline.el.ver.bak"
-  "powerline.el.ver.bak"
-  'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode company-mode auto-revert-mode)
-  12339
-  '(12529 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/gen_csv.clj"
-  "gen_csv.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  554
-  '(784 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/puneet/.emacs.d/vendor/emacs-powerline/powerline.el"
   "powerline.el"
   'emacs-lisp-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode company-mode auto-revert-mode)
-  1759
-  '(3905 nil)
+  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode paredit-mode rainbow-delimiters-mode auto-revert-mode company-mode)
+  1268
+  '(1268 nil)
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/web_dev_clojure/guestbook/resources/migrations/20170628164847-guestbook.up.sql"
-  "20170628164847-guestbook.up.sql"
-  'sql-mode
-  '(override-global-mode projectile-mode linum-mode yas-minor-mode helm-mode rainbow-delimiters-mode company-mode)
-  126
-  '(126 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/clojs/src/clojs/monads.clj"
-  "monads.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  1813
-  '(1813 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/clojs/src/clojs/clojs.clj"
-  "clojs.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  1372
-  '(3891 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/clojs/src/clojs/utilities.clj"
-  "utilities.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  1778
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/save_jsons_dataweave.clj"
-  "save_jsons_dataweave.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  3299
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/.gitignore"
-  ".gitignore"
-  'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode company-mode auto-revert-mode)
-  100
-  '(195 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/recharge.clj"
-  "recharge.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  6065
-  '(1478 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/api_keys"
-  "api_keys"
-  'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode company-mode)
-  167
-  '(133 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/api_dataweave.clj"
-  "api_dataweave.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  100
-  '(99 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/api_datayuge.clj"
-  "api_datayuge.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  689
-  '(85 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/save_jsons_datayuge.clj"
-  "save_jsons_datayuge.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  1448
-  '(47 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/Procfile"
-  "Procfile"
-  'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode company-mode auto-revert-mode)
-  97
-  '(97 nil)
-  nil
-  nil
-  '((truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/project.clj"
-  "project.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  1061
-  '(809 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/user.clj"
-  "user.clj"
-  'clojure-mode
-  '(auto-fill-mode override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode rainbow-delimiters-mode company-mode auto-revert-mode aggressive-indent-mode subword-mode)
-  459
-  '(459 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
