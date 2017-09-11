@@ -95,7 +95,7 @@
     ;yaml-mode
     ;coffee-mode
     ;scss-mode
-    ;haskell-mode
+    haskell-mode
     company
 
     ;; autocomplete
@@ -425,3 +425,9 @@ Similar to how `quoted-insert' works in a regular buffer."
 ;;(set-default-font "iosevka 11 light")
 ;; (setq line-move-visual nil)
 ;; (setq-default auto-fill-function 'do-auto-fill)
+
+;; haskell config
+(add-hook 'haskell-mode-hook #'hindent-mode)
+
+(eval-after-load 'haskell-mode
+          '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
