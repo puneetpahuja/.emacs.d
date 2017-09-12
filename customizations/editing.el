@@ -76,6 +76,7 @@
 (setq electric-indent-mode nil)
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
+;; (define-key global-map (kbd "RET") 'electric-newline-and-maybe-indent)
 
 (global-set-key (kbd "C-x g") 'magit-status)
 

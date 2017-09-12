@@ -11,9 +11,11 @@
 (add-to-list 'package-archives
              '("org" . "http://orgmode.org/elpa/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
-(add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("gnu" . "http://elpa.gnu.org/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
 
 (add-to-list 'package-pinned-packages '(cider . "melpa-stable") t)
 (add-to-list 'package-pinned-packages '(magit . "melpa-stable") t)
@@ -23,6 +25,8 @@
 ;; packages are loaded before you start trying to modify them.
 ;; This also sets the load path.
 (package-initialize)
+;; (package-refresh-contents)
+;; (package-install 'flycheck)
 (setq package-enable-at-startup nil)
 (require 'use-package)
 
@@ -70,6 +74,8 @@
     ;; http://www.emacswiki.org/emacs/Smex
     smex
 
+    intero
+
     ;; On OS X, an Emacs instance started from the graphical user
     ;; interface will have a different environment than a shell in a
     ;; terminal window, because OS X does not run a shell during the
@@ -96,7 +102,9 @@
     ;coffee-mode
     ;scss-mode
     haskell-mode
+    hindent
     company
+    ;;flycheck
 
     ;; autocomplete
     ;ac-cider
@@ -104,6 +112,7 @@
     ;ack-and-a-half
     ag
     ;enh-ruby-mode
+
     ))
 
  (dolist (p my-packages)
@@ -129,6 +138,9 @@
 ;;;;
 ;; Customization
 ;;;;
+
+(add-to-list 'load-path "~/.emacs.d/haskell")
+(load-library "haskell-config.el")
 
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
@@ -431,3 +443,8 @@ Similar to how `quoted-insert' works in a regular buffer."
 
 (eval-after-load 'haskell-mode
           '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
+
+(define-key global-map (kbd "RET") 'newline-and-indent)
+(add-hook 'haskell-mode-hook 'intero-mode)
+(intero-global-mode 1)
+(global-flycheck-mode)
