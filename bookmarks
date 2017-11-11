@@ -47,7 +47,7 @@
  (rear-context-string . "\"^[+-]?\\d+[.]?[\\")
  (position . 717))
 ("convert"
- (filename . "/home/puneet/code/geekskool/clojs/src/clojs/ast_converter.clj")
+ (filename . "~/code/geekskool/clojs/src/clojs/clojs.clj")
  (front-context-string)
  (rear-context-string . "ain \"fact.clj\")\n")
  (position . 7325))

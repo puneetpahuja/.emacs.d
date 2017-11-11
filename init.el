@@ -1,125 +1,8 @@
-;;;;
-;; Packages
-;;;;
+;;; package --- Main init file
 
-;; Define package repositories
-(require 'package)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives
-             '("tromey" . "http://tromey.com/elpa/") t)
-(add-to-list 'package-archives
-             '("org" . "http://orgmode.org/elpa/") t)
-(add-to-list 'package-archives
-             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-(add-to-list 'package-archives
-             '("gnu" . "http://elpa.gnu.org/packages/") t)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'load-path (concat user-emacs-directory "settings"))
 
-(add-to-list 'package-pinned-packages '(cider . "melpa-stable") t)
-(add-to-list 'package-pinned-packages '(magit . "melpa-stable") t)
-;; (add-to-list 'package-pinned-packages '(helm-projectile . "melpa-stable") t)
-
-;; Load and activate emacs packages. Do this first so that the
-;; packages are loaded before you start trying to modify them.
-;; This also sets the load path.
-(package-initialize)
-;; (package-refresh-contents)
-;; (package-install 'flycheck)
-(setq package-enable-at-startup nil)
-(require 'use-package)
-
-;; Download the ELPA archive description if needed.
-;; This informs Emacs about the latest versions of all packages, and
-;; makes them available for download.
-(when (not package-archive-contents)
-  (package-refresh-contents))
-
-(defvar ido-cur-item nil)
-(defvar ido-default-item nil)
-(defvar ido-context-switch-command nil)
-(defvar ido-cur-list nil)
-(defvar predicate nil)
-(defvar inherit-input-method nil)
-
-;; The packages you want installed. You can also install these
-;; manually with M-x package-install
-;; Add in your own as you wish:
-(defvar my-packages
-  '(;; makes handling lisp expressions much, much easier
-    ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
-    paredit
-
-    fill-column-indicator
-
-    ;; key bindings and code colorization for Clojure
-    ;; https://github.com/clojure-emacs/clojure-mode
-    clojure-mode
-
-    ;; extra syntax highlighting for clojure
-    clojure-mode-extra-font-locking
-
-    ;; integration with a Clojure REPL
-    ;; https://github.com/clojure-emacs/cider
-    cider
-
-    ;; allow ido usage in as many contexts as possible. see
-    ;; customizations/better-defaults.el line 47 for a description
-    ;; of ido
-    ido-ubiquitous
-
-    ;; Enhances M-x to allow easier execution of commands. Provides
-    ;; a filterable list of possible commands in the minibuffer
-    ;; http://www.emacswiki.org/emacs/Smex
-    smex
-
-    intero
-
-    ;; On OS X, an Emacs instance started from the graphical user
-    ;; interface will have a different environment than a shell in a
-    ;; terminal window, because OS X does not run a shell during the
-    ;; login. Obviously this will lead to unexpected results when
-    ;; calling external utilities like make from Emacs.
-    ;; This library works around this problem by copying important
-    ;; environment variables from the user's shell.
-    ;; https://github.com/purcell/exec-path-from-shell
-    exec-path-from-shell
-
-    ;; project navigation
-    projectile
-
-    ;; colorful parenthesis matching
-    rainbow-delimiters
-
-    ;; edit html tags like sexps
-    tagedit
-
-    ;; git integration
-    magit
-
-    ;yaml-mode
-    ;coffee-mode
-    ;scss-mode
-    haskell-mode
-    hindent
-    company
-    ;;flycheck
-
-    ;; autocomplete
-    ;ac-cider
-
-    ;ack-and-a-half
-    ag
-    ;enh-ruby-mode
-
-    ))
-
- (dolist (p my-packages)
-   (when (not (package-installed-p p))
-     (package-install p)))
-
-
+(require 'package-settings)
 ;; Place downloaded elisp files in ~/.emacs.d/vendor. You'll then be able
 ;; to load them.
 ;;
@@ -139,12 +22,13 @@
 ;; Customization
 ;;;;
 
-(add-to-list 'load-path "~/.emacs.d/haskell")
-(load-library "haskell-config.el")
+;; (add-to-list 'load-path "~/.emacs.d/haskell")
+;; (load-library "haskell-config.el")
 
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
 (add-to-list 'load-path "~/.emacs.d/customizations")
+(require 'lockstep)
 
 ;; Sets up exec-path-from-shell so that Emacs will use the correct
 ;; environment variables
@@ -153,6 +37,13 @@
 ;; These customizations make it easier for you to navigate files,
 ;; switch buffers, and choose options from the minibuffer.
 (load "navigation.el")
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:height 110 :family "pfdin")))))
 
 ;; These customizations change the way emacs looks and disable/enable
 ;; some user interface elements
@@ -206,9 +97,14 @@
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
  '(custom-enabled-themes (quote (leuven)))
+ '(haskell-tags-on-save t)
+ '(haskell-process-suggest-remove-import-lines t)
+ '(haskell-process-auto-import-loaded-modules t)
+ '(haskell-process-type 'stack-ghci)
+ '(haskell-process-log t)
  '(custom-safe-themes
    (quote
-    ("a4340c197a450c77c729cad236b5f3ca88aaf974e91a7af2d2e7ae7bb5f96720" "6b20d669fcbcd79c6d0f3db36a71af1b88763246d3550a0c361866adecb38a9e" "3a08a6a704a490481c0145ec5cd67beb95a2596f611e09ad6c85be6353d2a7dc" "4486ade2acbf630e78658cd6235a5c6801090c2694469a2a2b4b0e12227a64b9" "3b189c29215a842875c90d59da5dae09c8a3a82a6026da9f35b1130e35d4875e" default)))
+    ("31ee77ad4f9e462192812cf0a829a5ac77f9c3f638f9748923d98e2e40184d42" "a4340c197a450c77c729cad236b5f3ca88aaf974e91a7af2d2e7ae7bb5f96720" "6b20d669fcbcd79c6d0f3db36a71af1b88763246d3550a0c361866adecb38a9e" "3a08a6a704a490481c0145ec5cd67beb95a2596f611e09ad6c85be6353d2a7dc" "4486ade2acbf630e78658cd6235a5c6801090c2694469a2a2b4b0e12227a64b9" "3b189c29215a842875c90d59da5dae09c8a3a82a6026da9f35b1130e35d4875e" default)))
  '(package-selected-packages
    (quote
     (clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
@@ -303,7 +199,7 @@ Similar to how `quoted-insert' works in a regular buffer."
                           :background "gray30"
                           :height 130
                           ; :weight 'ultra-bold
-                          :family "Architect's Daughter")))
+                          :family "architect's daughter")))
 
 ;; (defun my-buffer-face-mode-variable ()
 ;;   "Set font to a variable width (proportional) fonts in current buffer"
@@ -351,6 +247,13 @@ Similar to how `quoted-insert' works in a regular buffer."
 (add-hook 'after-init-hook
           #'(lambda ()
               (after-packages-loaded-hook)))
+
+;; solve emacsclient issue - window size too small to split
+(defun split-window-right-ignore (&optional size)
+  (if (car size) size (list (/ (window-total-width) 2))))
+
+(advice-add 'split-window-right :filter-args
+            'split-window-right-ignore)
 
 
 ;; make git commit message 72 columns wide
@@ -428,12 +331,6 @@ Similar to how `quoted-insert' works in a regular buffer."
 
 (add-hook 'clojure-mode-hook 'hs-minor-mode)
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:height 130 :family "pfdin")))))
 ;;(set-default-font "iosevka 11 light")
 ;; (setq line-move-visual nil)
 ;; (setq-default auto-fill-function 'do-auto-fill)
@@ -444,7 +341,30 @@ Similar to how `quoted-insert' works in a regular buffer."
 (eval-after-load 'haskell-mode
           '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
 
-(define-key global-map (kbd "RET") 'newline-and-indent)
-(add-hook 'haskell-mode-hook 'intero-mode)
-(intero-global-mode 1)
+;; (define-key global-map (kbd "RET") 'newline-and-indent)
+;; (add-hook 'haskell-mode-hook 'intero-mode)
+;; (intero-global-mode 1)
 (global-flycheck-mode)
+
+
+(eval-after-load 'haskell-mode '(progn
+  (define-key haskell-mode-map (kbd "C-c C-l") 'haskell-process-load-or-reload)
+  (define-key haskell-mode-map (kbd "C-c C-z") 'haskell-interactive-switch)
+  (define-key haskell-mode-map (kbd "C-c C-n C-t") 'haskell-process-do-type)
+  (define-key haskell-mode-map (kbd "C-c C-n C-i") 'haskell-process-do-info)
+  (define-key haskell-mode-map (kbd "C-c C-n C-c") 'haskell-process-cabal-build)
+  (define-key haskell-mode-map (kbd "C-c C-n c") 'haskell-process-cabal)))
+(eval-after-load 'haskell-cabal '(progn
+  (define-key haskell-cabal-mode-map (kbd "C-c C-z") 'haskell-interactive-switch)
+  (define-key haskell-cabal-mode-map (kbd "C-c C-k") 'haskell-interactive-mode-clear)
+  (define-key haskell-cabal-mode-map (kbd "C-c C-c") 'haskell-process-cabal-build)
+  (define-key haskell-cabal-mode-map (kbd "C-c c") 'haskell-process-cabal)))
+
+(eval-after-load 'haskell-mode
+  '(define-key haskell-mode-map (kbd "C-c C-o") 'haskell-compile))
+(eval-after-load 'haskell-cabal
+  '(define-key haskell-cabal-mode-map (kbd "C-c C-o") 'haskell-compile))
+
+(let ((my-cabal-path (expand-file-name "~/.cabal/bin")))
+  (setenv "PATH" (concat my-cabal-path path-separator (getenv "PATH")))
+  (add-to-list 'exec-path my-cabal-path))
