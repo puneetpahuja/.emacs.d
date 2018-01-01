@@ -3,17 +3,6 @@
 (add-to-list 'load-path (concat user-emacs-directory "settings"))
 
 (require 'package-settings)
-;; Place downloaded elisp files in ~/.emacs.d/vendor. You'll then be able
-;; to load them.
-;;
-;; For example, if you download yaml-mode.el to ~/.emacs.d/vendor,
-;; then you can add the following code to this file:
-;;
-;; (require 'yaml-mode)
-;; (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
-;;
-;; Adding this code will make Emacs enter yaml mode whenever you open
-;; a .yml file
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
@@ -178,8 +167,8 @@ Similar to how `quoted-insert' works in a regular buffer."
 (with-eval-after-load 'company
   (define-key company-active-map (kbd "M-n") nil)
   (define-key company-active-map (kbd "M-p") nil)
-  (define-key company-active-map (kbd "C-.") #'company-select-next)
-  (define-key company-active-map (kbd "C-,") #'company-select-previous))
+  (define-key company-active-map (kbd "C-n") #'company-select-next)
+  (define-key company-active-map (kbd "C-p") #'company-select-previous))
 
 (set-face-background 'hl-line "#ffff66")
 
@@ -337,6 +326,7 @@ Similar to how `quoted-insert' works in a regular buffer."
 
 ;; haskell config
 (add-hook 'haskell-mode-hook #'hindent-mode)
+(add-hook 'haskell-mode-hook #'enable-paredit-mode)
 
 (eval-after-load 'haskell-mode
           '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
@@ -368,3 +358,21 @@ Similar to how `quoted-insert' works in a regular buffer."
 (let ((my-cabal-path (expand-file-name "~/.cabal/bin")))
   (setenv "PATH" (concat my-cabal-path path-separator (getenv "PATH")))
   (add-to-list 'exec-path my-cabal-path))
+
+
+
+(global-auto-revert-mode t)
+
+(defun cider-namespace-refresh ()
+  (interactive)
+  (cider-interactive-eval
+   "(require 'clojure.tools.namespace.repl)
+  (clojure.tools.namespace.repl/refresh)"))
+
+(add-hook 'cider-mode-hook
+   '(lambda () (add-hook 'after-save-hook
+    '(lambda ()
+       (if (and (boundp 'cider-mode) cider-mode)
+    (cider-namespace-refresh))))))
+
+(define-key clojure-mode-map (kbd "C-c C-r") 'cider-namespace-refresh)

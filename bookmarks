@@ -2,53 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("cur"
- (filename . "~/code/geekskool/best_plan/src/best_plan/csv_gen.clj")
- (front-context-string . "csv-file (str cs")
- (rear-context-string . "\")))]\n    (let [")
- (position . 2428))
-("res"
- (filename . "/home/puneet/code/geekskool/best_plan/resources/")
- (presel . "/home/puneet/code/geekskool/best_plan/resources/.")
- (handler . helm-ff-bookmark-jump))
-("top"
- (filename . "/home/puneet/code/geekskool/best_plan/")
- (presel . "/home/puneet/code/geekskool/best_plan/src")
- (handler . helm-ff-bookmark-jump))
-("src"
- (filename . "/home/puneet/code/geekskool/best_plan/src/best_plan/")
- (presel . "/home/puneet/code/geekskool/best_plan/src/best_plan/csv_gen.clj")
- (handler . helm-ff-bookmark-jump))
-("misc"
- (filename . "~/code/geekskool/misc_stuff")
- (front-context-string)
- (rear-context-string . "ojs ~/test/clojs")
- (position . 904))
-("log"
- (filename . "/home/puneet/code/geekskool/log")
- (front-context-string)
- (rear-context-string . " same as `def`)\n")
- (position . 10991))
-("brave"
- (filename . "/home/puneet/code/geekskool/brave_and_true/")
- (presel . "/home/puneet/code/geekskool/brave_and_true/.")
- (handler . helm-ff-bookmark-jump))
-("geekskool"
- (filename . "/home/puneet/code/geekskool/")
- (presel . "/home/puneet/code/geekskool/seqingclojure")
+(("proj"
+ (filename . "/home/puneet/code/work/controlroom/controlroom-dummy-api/")
+ (presel . "/home/puneet/code/work/controlroom/controlroom-dummy-api/.")
  (handler . helm-ff-bookmark-jump))
 ("emacs"
  (filename . "/home/puneet/.emacs.d/")
  (presel . "/home/puneet/.emacs.d/.")
  (handler . helm-ff-bookmark-jump))
-("gen"
- (filename . "/home/puneet/code/geekskool/clojs/src/clojs/ast_generator.clj")
- (front-context-string . "d+]?\" code)]\n   ")
- (rear-context-string . "\"^[+-]?\\d+[.]?[\\")
- (position . 717))
-("convert"
- (filename . "~/code/geekskool/clojs/src/clojs/clojs.clj")
- (front-context-string)
- (rear-context-string . "ain \"fact.clj\")\n")
- (position . 7325))
 )
