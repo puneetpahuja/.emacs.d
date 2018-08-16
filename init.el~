@@ -7,10 +7,6 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-(add-to-list 'load-path "~/.emacs.d/evil")
-(require 'evil)
-(evil-mode 1)
-
 (add-to-list 'load-path "~/.emacs.d/customizations")
 (require 'lockstep)
 
@@ -150,8 +146,6 @@
 ; (setq eldoc-echo-area-use-multiline-p t)
 ; (setq cider-eldoc-display-context-dependent-info t)
 ; (setq cider-overlays-use-font-lock t)
-(add-to-list 'auto-mode-alist '("\\.mat\\'" . octave-mode))
-(add-to-list 'auto-mode-alist '("\\.m\\'" . octave-mode))
 
 (defun term-send-ctrl-x ()
   "Quote the next character in term-mode.

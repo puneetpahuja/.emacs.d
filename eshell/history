@@ -1,0 +1,9 @@
+srvr
+lein ring server
+lein ring server
+reset
+set
+clear
+clear_console
+reset 
+lein ring server
