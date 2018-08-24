@@ -1,15 +1,18 @@
 ;;; package --- Main init file
 
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (add-to-list 'load-path (concat user-emacs-directory "settings"))
 
 (require 'package-settings)
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
-
-(add-to-list 'load-path "~/.emacs.d/evil")
-(require 'evil)
-(evil-mode 1)
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
 (require 'lockstep)
@@ -81,17 +84,17 @@
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
  '(custom-enabled-themes (quote (leuven)))
- '(haskell-tags-on-save t)
- '(haskell-process-suggest-remove-import-lines t)
- '(haskell-process-auto-import-loaded-modules t)
- '(haskell-process-type 'stack-ghci)
- '(haskell-process-log t)
  '(custom-safe-themes
    (quote
     ("31ee77ad4f9e462192812cf0a829a5ac77f9c3f638f9748923d98e2e40184d42" "a4340c197a450c77c729cad236b5f3ca88aaf974e91a7af2d2e7ae7bb5f96720" "6b20d669fcbcd79c6d0f3db36a71af1b88763246d3550a0c361866adecb38a9e" "3a08a6a704a490481c0145ec5cd67beb95a2596f611e09ad6c85be6353d2a7dc" "4486ade2acbf630e78658cd6235a5c6801090c2694469a2a2b4b0e12227a64b9" "3b189c29215a842875c90d59da5dae09c8a3a82a6026da9f35b1130e35d4875e" default)))
+ '(haskell-process-auto-import-loaded-modules t)
+ '(haskell-process-log t)
+ '(haskell-process-suggest-remove-import-lines t)
+ '(haskell-process-type (quote stack-ghci))
+ '(haskell-tags-on-save t)
  '(package-selected-packages
    (quote
-    (clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
+    (undo-tree evil clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
 
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
