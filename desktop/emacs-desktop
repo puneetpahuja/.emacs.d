@@ -2,414 +2,702 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Aug 16 22:11:46 2018
-;; Desktop file format version 206
-;; Emacs version 24.5.1
+;; Created Mon Oct 15 15:06:49 2018
+;; Desktop file format version 208
+;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23413 43338 380576 862000) (desktop . "206") "puneet@joy" nil nil ((((font-backend xft x) (font . "-prch-PFDin-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 0) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (display-type . color) (background-mode . light) (cursor-color . "#0FB300") (visibility) (powerline-cache) (frameset--id . "A059-A509-F475-F160") (frameset--mini t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 35) (width . 80) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 64) (min-pixel-width . 80) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 24) (min-pixel-height-safe . 16) (min-pixel-width-safe . 16)) leaf (pixel-width . 648) (pixel-height . 544) (total-width . 81) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected) (hscroll . 0) (fringes 8 0 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (((font-backend xft x) (font . "-prch-PFDin-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 0) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#0FB300") (sticky) (environment "_=/usr/bin/emacsclient" "LC_CTYPE=en_IN" "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:" "LSCOLORS=Gxfxcxdxbxegedabagacad" "LESS=-R" "PAGER=less" "ZSH=/home/puneet/.oh-my-zsh" "OLDPWD=/home/puneet" "SHLVL=1" "USER=puneet" "GPG_AGENT_INFO=/home/puneet/.gnupg/S.gpg-agent:0:1" "SESSION_MANAGER=local/joy:@/tmp/.ICE-unix/2527,unix/joy:/tmp/.ICE-unix/2527" "XDG_RUNTIME_DIR=/run/user/1000" "XDG_SEAT=seat0" "HOME=/home/puneet" "TERM=xterm" "PATH=/home/puneet/bin:/home/puneet/.local/bin:/home/puneet/code/geekskool/seqingclojure/clojure-parser:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games" "XDG_CURRENT_DESKTOP=X-Cinnamon" "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh" "GTK_MODULES=gail:atk-bridge" "SSH_AGENT_PID=2705" "WINDOWID=6291460" "QT_ACCESSIBILITY=1" "GJS_DEBUG_OUTPUT=stderr" "SHELL=/usr/bin/zsh" "XDG_SESSION_COOKIE=5ab3c275b7304ed3b8aeef9ffcc37eb4-1514954150.200823-1939013888" "QT_STYLE_OVERRIDE=gtk" "GTK_OVERLAY_SCROLLING=1" "GJS_DEBUG_TOPICS=JS ERROR;JS LOG" "XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/puneet/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/usr/share/mdm/" "GDM_XSERVER_LOCATION=local" "TERMINATOR_UUID=urn:uuid:eef39e5a-74a2-4e1c-acd5-b556331390b4" "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-qMKhI6Zykc,guid=1da5ddc40f373dd5ead1d6205a4c5da7" "CINNAMON_VERSION=3.6.7" "GNOME_DESKTOP_SESSION_ID=this-is-deprecated" "MDM_XSERVER_LOCATION=local" "WINDOWPATH=8" "XDG_SESSION_DESKTOP=cinnamon" "USERNAME=puneet" "GDMSESSION=cinnamon" "DEFAULTS_PATH=/usr/share/gconf/cinnamon.default.path" "MDMSESSION=cinnamon" "DESKTOP_SESSION=cinnamon" "MDM_LANG=en_IN" "XDG_SESSION_ID=c1" "COLORTERM=gnome-terminal" "IBUS_DISABLE_SNOOPER=1" "QT_QPA_PLATFORMTHEME=qgnomeplatform" "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1" "XAUTHORITY=/home/puneet/.Xauthority" "PWD=/home/puneet" "MANDATORY_PATH=/usr/share/gconf/cinnamon.mandatory.path" "LANGUAGE=en_IN:en" "LOGNAME=puneet" "DISPLAY=:0" "XDG_VTNR=8" "LANG=en_IN" "XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg") (powerline-cache) (client . "Unprintable entity") (frameset--id . "C87F-357A-4ACA-8963") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 44) (width . 169) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 64) (min-pixel-width . 160) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 48) (min-pixel-height-safe . 16) (min-pixel-width-safe . 32)) hc (pixel-width . 1366) (pixel-height . 702) (total-width . 171) (total-height . 44) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 787) (pixel-height . 702) (total-width . 98) (total-height . 44) (normal-height . 1.0) (normal-width . 0.5755131964809385) (buffer "dashboard/postgres.clj" (selected) (hscroll . 0) (fringes 8 0 nil) (margins 4) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 800) (start . 1))) (leaf (last . t) (pixel-width . 579) (pixel-height . 702) (total-width . 73) (total-height . 44) (normal-height . 1.0) (normal-width . 0.4244868035190615) (buffer "*cider-repl controlroom-api-poc*" (selected . t) (hscroll . 0) (fringes 8 0 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 7535) (start . 6967)))))])
+(setq desktop-saved-frameset [frameset 1 (23492 24497 103170 967000) (desktop . "208") "puneet@work" nil nil ((((font-backend xft x) (font . "-prch-PFDin-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 4) (right-fringe . 0) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullheight) (display-type . color) (background-mode . light) (cursor-color . "#0FB300") (sticky) (environment) (powerline-cache) (frameset--id . "6F52-0AB8-5A3F-2C18") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 51) (width . 95) (left . 951) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 100) (min-pixel-height-ignore . 60) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 20) (min-pixel-width-safe . 20)) leaf (pixel-width . 959) (pixel-height . 1007) (total-width . 95) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 4 0 nil) (margins 4) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 13371) (start . 12121))))])
 (setq desktop-missing-file-warning nil)
-(setq tags-file-name "/home/puneet/code/haskell_classes/TAGS")
-(setq tags-table-list '("/home/puneet/code/haskell-classes/TAGS" "/home/puneet/code/haskell-classes/TAGS" "/home/puneet/code/haskell_classes/TAGS" "/home/puneet/code/geekskool/haskell_graham_hutton/ch3/TAGS" "/home/puneet/code/geekskool/haskell_graham_hutton/ch5/TAGS" "/home/puneet/code/geekskool/haskell_graham_hutton/ch4/TAGS" "/home/puneet/code/geekskool/haskell_graham_hutton/ch2/TAGS" "/home/puneet/code/geekskool/haskell_graham_hutton/ch1/TAGS" "/home/puneet/code/futurelearn/week2/TAGS"))
-(setq search-ring '("rename" "delete" "combina"))
-(setq regexp-search-ring '("-" "get-tasks" "dato" "haskell-process" "stack"))
-(setq register-alist nil)
-(setq file-name-history '("~/code/work/controlroom/controlroom-api-poc/src/api/handler.clj" "~/code/work/controlroom/controlroom-api-poc/src/dtm/util.clj" "~/code/work/controlroom/controlroom-api-poc/src/debug/trace.clj" "~/code/work/controlroom/controlroom-api-poc/src/api/write.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/init.clj" "~/code/work/controlroom/controlroom-api-poc/src/api/util.clj" "~/code/work/controlroom/controlroom-api-poc/src/config/dtm.clj" "~/code/work/controlroom/controlroom-api-poc/src/dtm/write.clj" "~/code/work/controlroom/controlroom-api-poc/src/api/schema.clj" "~/code/work/controlroom/controlroom-api-poc/src/fileserver/s3.clj" "~/code/work/controlroom/controlroom-api-poc/src/fileserver/file.clj" "~/code/work/controlroom/controlroom-api-poc/src/config/digital_ocean_spaces.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/hih_users.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/parse_users_csv.clj" "~/code/geekskool/best_plan/src/best_plan/server.clj" "~/code/work/controlroom/controlroom-api-poc/src/dtm/read.clj" "~/code/work/controlroom/controlroom-api-poc/src/tmp/test.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/test.clj" "~/code/work/controlroom/controlroom-api-poc/src/dashboard/postgres.clj" "~/code/work/controlroom/controlroom-api-poc/src/config/words.clj" "~/code/work/controlroom/controlroom-api-poc/src/config/postgres.clj" "~/code/work/controlroom/sms-api/handler.js" "~/code/work/controlroom/controlroom-api-poc/src/dtm/convert.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/demo/test.clj" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/geekskool/haskell_first_principles/.git/COMMIT_EDITMSG" "~/code/geekskool/haskell_first_principles/README.md" "~/code/haskell_graham_hutton/LICENSE.md" "~/code/haskell_classes/FileSort.hs" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-api-poc/src/data/ids.clj" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-api-poc/project.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/demo/ids.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/util.clj" "~/code/work/controlroom/controlroom-api-poc/src/api/read.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/generator.clj" "~/code/ML/3/ex3/predict.m" "~/code/ML/3/ex3/predictOneVsAll.m" "~/code/ML/3/ex3/oneVsAll.m" "~/code/ML/3/ex3/lrCostFunction.m" "~/code/work/controlroom/controlroom-api-poc/docs/design" "~/code/ML/2/ex2/costFunction.m" "~/code/ML/2/ex2/ex2_reg.m" "~/code/ML/2/ex2/costFunctionReg.m" "~/code/ML/2/ex2/mapFeature.m" "~/code/ML/2/ex2/predict.m" "~/code/ML/2/ex2/ex2.m" "~/code/ML/2/ex2/plotData.m" "~/code/ML/2/ex2/sigmoid.m" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-api-poc/src/dashboard/convert.clj" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-api-poc/docs/design profiler" "~/code/work/controlroom/controlroom-api-poc/docs/todo" "~/.emacs.d/init.el" "~/code/haskell_classes/mergeSortOnDisk.hs" "~/code/haskell_classes/march-13-mergesort-disk.hs" "~/code/haskell_classes/numberInWords.hs" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-api-poc/src/fileserver/digital_ocean_spaces.clj" "~/code/work/controlroom/controlroom-api-poc/src/fileserver/do_spaces.clj" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/Downloads/parser.hs" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-api-poc/src/data/repl_commands.clj" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/haskell_classes/monoid.hs" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/Dockerfile" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/MERGE_MSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-dummy-api/src/controlroom_dummy_api/api_schema.clj" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "~/code/work/controlroom/controlroom-api-poc/src/api/auth.clj" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/work/controlroom/controlroom-api-poc/.git/COMMIT_EDITMSG" "/home/puneet/code/haskell_classes/.git/COMMIT_EDITMSG" "~/code/haskell_classes/printJson.hs" "~/code/work/controlroom/controlroom-api-poc/src/dtm/config.clj"))
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("rename" "ren"))
+(setq regexp-search-ring '("fantas" "C" "T" "C" "length" "lower" "misce" "audioCollections/{" "requi" "definitions" "defini" "https" "140" "fan" "pfdin" "conve"))
+(setq register-alist '((118) (120 . [105 116 116 116 116 116 111 97 104 117 escape 99 119 101 116 101 104 116 escape]) (111) (48 . "api.add_route('/search/collections/audio', resources.SearchAudioCollections())\n") (105) (113)))
+(setq file-name-history '("~/code/work/controlroom/controlroom-api-poc/src/dashboard/postgres.clj" "~/code/work/controlroom/controlroom-api-poc/src/dashboard/convert.clj" "~/code/work/controlroom/controlroom-api-poc/src/debug/trace.clj" "~/code/adori/Backend/falcon_server/resources/audio_tracks.py" "/home/puneet/code/adori/Backend/.git/COMMIT_EDITMSG" "~/Downloads/example.yaml" "~/Downloads/swagger.yaml" "~/code/geekskool/nilenso/maze/src/maze/core.clj" "/home/puneet/code/adori/Backend/.git/COMMIT_EDITMSG" "~/code/haskell_graham_hutton/ch8/exercise8AbstractMachine.hs" "/home/puneet/code/adori/Backend/.git/COMMIT_EDITMSG" "~/code/adori/Backend/falcon_server/requirements.txt" "~/code/haskell_graham_hutton/book_code/countdown.hs" "~/code/adori/Backend/models/user.py" "~/code/adori/Backend/models/database_engine.py" "~/code/adori/Backend/analytics/parseData.py" "~/code/adori/podcatcher/output.py" "~/code/adori/podcatcher/output55" "~/code/adori/Backend/analytics/dataFetchNew.py" "~/code/adori/podcatcher/parser.py" "~/code/adori/Backend/configuration.py" "~/code/adori/Backend/adorification/adorify.py" "~/code/adori/Backend/falcon_server/middleware/authentication.py" "~/code/adori/Backend/falcon_server/resources/episodes.py" "~/code/adori/Backend/falcon_server/resources/__init__.py" "~/code/adori/podcatcher/api_util.py" "~/code/work/controlroom/controlroom-api-poc/src/data/hih_users.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/parse_users_csv.clj" "~/Downloads/books/vim/code/normal_mode/sprite.css" "~/Downloads/books/vim/code/normal_mode/the_end.txt" "~/Downloads/books/vim/code/the_vim_way/1_copy_content.txt" "~/Downloads/books/vim/code/the_vim_way/2_foo_bar.js" "~/Downloads/books/vim/code/the_vim_way/3_concat.js" "~/Downloads/books/vim/code/the_vim_way/0_mechanics.txt" "~/code/haskell_graham_hutton/ch8/examples.hs" "~/code/adori/podcatcher/dev.adorilabs.com.har" "~/.emacs.d/settings/package-settings.el" "~/Downloads/dev.adorilabs.com.har" "~/code/adori/Backend/config/.my.adori.dev.cnf" "~/code/geekskool/nilenso/maze/project.clj" "~/code/adori/feedparser.py" "~/code/adori/Backend/server/openapi.json" "~/code/adori/openapi.json" "~/code/adori/objects.schema.json" "~/code/adori/Backend/falcon_server/resources/audio_collections.py" "~/code/adori/Backend/models/custom_types.py" "~/code/adori/Backend/models/base.py" "~/code/adori/Backend/models/requirements.txt" "~/code/adori/Backend/models/audio_collection_episode.py" "~/code/adori/Backend/falcon_server/resources/tags.py" "~/code/work/controlroom/controlroom-api-poc/src/dtm/util.clj" "~/code/work/controlroom/controlroom-api-poc/src/data/init.clj" "/home/puneet/code/adori/Backend/.git/COMMIT_EDITMSG" "~/code/adori/Backend/models/create_tables.py" "~/code/adori/Backend/falcon_server/middleware/transaction.py" "~/code/adori/Backend/models/generate_json_schema.py" "~/code/adori/Backend/models/episode.py" "~/code/adori/Backend/models/audio_collection.py" "~/code/adori/Backend/falcon_server/resources/playlists.py" "~/code/geekskool/best_plan/src/best_plan/convert_csv.clj" "~/code/geekskool/best_plan/src/best_plan/api_keys" "/home/puneet/code/adori/Backend/.git/COMMIT_EDITMSG" "~/code/adori/Backend/falcon_server/resources/hooks.py" "/home/puneet/code/adori/Backend/.git/COMMIT_EDITMSG" "~/code/adori/Backend/falcon_server/app.py" "~/code/adori/Backend/falcon_server/resources/featured.py" "~/code/adori/Backend/falcon_server/resources/users.py" "~/.emacs.d/ido.last" "~/.emacs.d/init.el" "~/code/adori/README_TO_CLONE_DEV_VM" "~/.emacs.d/elpa/goto-chg-20131228.659/goto-chg-autoloads.el"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
+(desktop-create-buffer 208
+  "/home/puneet/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode linum-relative-mode rainbow-delimiters-mode)
+  13371
+  '(1306 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1308 1324 979 979 979 979 980 1308 1308 1230 1230 1320 1320 1320 1320 1320))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/app.py"
+  "app.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  594
+  '(594 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (594 595 4515 4189 4117 4068 4007 3470 3422 3369 3333 3279 3246 3246 4068 4007))))
+
+(desktop-create-buffer 208
   "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dashboard/postgres.clj"
   "postgres.clj"
   'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  800
-  '(11908 nil)
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  7368
+  '(7368 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (7368 7369 1 1 1))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/api/handler.clj"
-  "handler.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  8186
-  '(9940 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dtm/util.clj"
-  "util.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  8506
-  '(7301 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/project.clj"
-  "project.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1307
-  '(1307 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/init.clj"
-  "init.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1356
-  '(267 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dtm/write.clj"
-  "write.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  12045
-  '(2819 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/api/write.clj"
-  "write.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1564
-  '(946 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/api/schema.clj"
-  "schema.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  5067
-  '(1895 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/debug/trace.clj"
-  "trace.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  423
-  '(564 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/api/util.clj"
-  "util.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  527
-  '(306 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dtm/convert.clj"
-  "convert.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1059
-  '(8760 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dtm/schema.clj"
-  "schema.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1096
-  '(6005 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/parse_users_csv.clj"
-  "parse_users_csv.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  170
-  '(2745 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/config/db_admin.clj"
-  "db_admin.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  94
-  '(64 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/config/postgres.clj"
-  "postgres.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  278
-  '(234 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
+(desktop-create-buffer 208
   "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dashboard/convert.clj"
   "convert.clj"
   'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  8203
-  '(5839 nil)
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  7749
+  '(7749 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t)))
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (7749 7804 1 1 1 7808))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/config/admin.clj"
-  "admin.clj"
+(desktop-create-buffer 208
+  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/debug/trace.clj"
+  "trace.clj"
   'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  101
-  '(58 nil)
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  602
+  '(602 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (602 137 126))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/config/dtm.clj"
-  "dtm.clj"
+(desktop-create-buffer 208
+  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dtm/util.clj"
+  "util.clj"
   'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  297
-  '(61 nil)
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  8855
+  '(8855 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (8855 8409 8409 8409 8146 8409 1 1))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/api/auth.clj"
-  "auth.clj"
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/audio_tracks.py"
+  "audio_tracks.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  526
+  '(526 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (526 526 526 450 3776 5858 5835 5027 5027 3671 3671 6431 5903 5903))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/featured.py"
+  "featured.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  837
+  '(837 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (837 837 798 1217 1217 1217 1217 1217 525 525 428 428 428 428 428 428))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/tags.py"
+  "tags.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1008
+  '(1008 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1008 1008 1309 1309 1309 1559 1 1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/audio_collections.py"
+  "audio_collections.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  6384
+  '(6384 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (6384 6623 6615 3441 3441 3067 3066 3067 118 118 1158 1158 5617 5617 5618 1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/Downloads/swagger.yaml"
+  "swagger.yaml"
+  'yaml-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode company-mode)
+  29475
+  '(29475 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (29475 29475 29475 29475 29475 29474 29206 29206 546 546 546 5 546 546 546 546))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/search.py"
+  "search.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  350
+  '(3704 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (3704 3704 3704 1633 3882 3882 4110 2435 2435 945 836 836 836 3679 3185 350))))
+
+(desktop-create-buffer 208
+  "/home/puneet/Downloads/example.yaml"
+  "example.yaml"
+  'yaml-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode company-mode)
+  16426
+  '(16427 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (16071 16072 14188 13519 11524 10964 10402 9188 8430 8296 7271 4720 4026 3168 2062 1440))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/generate_json_schema.py"
+  "generate_json_schema.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  811
+  '(811 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (811 812 122 1 1 122))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/server/openapi.json"
+  "openapi.json"
+  'js-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode smerge-mode)
+  69549
+  '(69549 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (69549 69549 69548 69549 69549 69549 69549 69549 69549 69549 69549 69549 69549 3 3 3))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/geekskool/nilenso/maze/src/maze/core.clj"
+  "core.clj"
   'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1546
-  '(125 nil)
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  730
+  '(731 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (731 1054 1054 1050 1050 1050 1037 1050 1050 1050 1050 1050 1037 1037 1037 1050))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dtm/auth.clj"
-  "auth.clj"
+(desktop-create-buffer 208
+  "/home/puneet/code/geekskool/nilenso/maze.hs"
+  "maze.hs"
+  'haskell-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode paredit-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode hindent-mode)
+  766
+  '(766 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (766 766 766 766 765 765 197 512 398 407 512 116 153 88 83 150))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  859
+  '(859 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (859 765 765 715 715 35 35 36 36 36 37 315 315 315 315 316))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/haskell_graham_hutton/ch8/exercise8AbstractMachine.hs"
+  "exercise8AbstractMachine.hs"
+  'haskell-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode hindent-mode)
+  54
+  '(54 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (54 54 32 53))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/haskell_graham_hutton/ch8/exercises.hs"
+  "exercises.hs"
+  'haskell-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode hindent-mode)
+  3023
+  '(3023 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (3023 3024 2183 2183 2183 2183 2184 2316 2316 1933 2453 2510 2314 1488 1449 1476))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/haskell_graham_hutton/ch8/examples.hs"
+  "examples.hs"
+  'haskell-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode hindent-mode)
+  463
+  '(463 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (463 231 231 308 779 779 779 401 528 401 528 547 451 271 245 222))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/podcatcher/api_util.py"
+  "api_util.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  654
+  '(654 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (654 654 1524))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/podcatcher/parser.py"
+  "parser.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  3941
+  '(3941 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (3941 5698 5851 5851 4030 4031 5560 15 15 5384 5560 5560 3326 3836 4992 3020))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/podcatcher/userBot.py"
+  "userBot.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  2016
+  '(2016 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (2016 2016 878 878 603 604 562 562 683 14 30 177 219 353 386 409))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/geekskool/best_plan/src/best_plan/api_keys"
+  "api_keys"
+  'fundamental-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode global-auto-revert-mode company-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/users.py"
+  "users.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1414
+  '(1414 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (832 832 149 149 149 149 930 930 931 771 1 1237 1237 1238))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/requirements.txt"
+  "requirements.txt"
+  'text-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/haskell_graham_hutton/ch9/countdown.hs"
+  "countdown.hs"
+  'haskell-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode hindent-mode)
+  516
+  '(516 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (516 516 515 515 308 360 250 324 360 360 308 308 553 553 515 553))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/haskell_graham_hutton/book_code/countdown.hs"
+  "countdown.hs"
+  'haskell-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode hindent-mode)
+  3595
+  '(3595 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (3595 3595))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/user.py"
+  "user.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  2450
+  '(168 t)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (168 168 168 168 168 168 168 168 168 168 168 168 168 168 168 168))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/database_engine.py"
+  "database_engine.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  499
+  '(499 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (499 1 1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/analytics/parseData.py"
+  "parseData.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1183
+  '(1183 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1183 1 1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/adorification/adorify.py"
+  "adorify.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode smerge-mode)
+  2074
+  '(1181 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1181 1182 1221 1221 1221 1222 915 915 673 673))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/podcatcher/output.py"
+  "output.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1691107
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1 1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/analytics/dataFetchNew.py"
+  "dataFetchNew.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  698
+  '(112 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (112 112))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/configuration.py"
+  "configuration.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1661
+  '(1661 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1661 1661 1661 1661 1662 1971 1971))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/middleware/authentication.py"
+  "authentication.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  4753
+  '(4753 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (5137 5138))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/analytics.py"
+  "analytics.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  529
+  '(529 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (529 62 529 529 344 113 112 1 1 113 344 419 529 113 43 529))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/parse_users_csv.clj"
+  "parse_users_csv.clj"
   'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  494
-  '(562 nil)
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  2770
+  '(2770 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (2770 2771 942 1721 1721 1722 2797 2797 2798 1205 5934 5934))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/api/read.clj"
-  "read.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  798
-  '(688 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/fileserver/file.clj"
-  "file.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1139
-  '(945 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/fileserver/s3.clj"
-  "s3.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  149
-  '(1025 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/config/digital_ocean_spaces.clj"
-  "digital_ocean_spaces.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  52
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
+(desktop-create-buffer 208
   "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/hih_users.clj"
   "hih_users.clj"
   'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  5197
-  '(33 nil)
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  5281
+  '(5281 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (5281 5281 5281 5281))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/geekskool/best_plan/src/best_plan/server.clj"
-  "server.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  1378
-  '(1198 nil)
+(desktop-create-buffer 208
+  "/home/puneet/Downloads/books/vim/code/the_vim_way/3_concat.js"
+  "3_concat.js"
+  'js-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode)
+  442
+  '(442 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (442 442 405))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/test.clj"
-  "test.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  8954
-  '(8432 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/dtm/read.clj"
-  "read.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  3910
-  '(2689 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/tmp/test.clj"
-  "test.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  583
-  '(743 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/generator.clj"
-  "generator.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  2086
-  '(3823 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/config/words.clj"
-  "words.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  4189
-  '(211 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/docs/design profiler"
-  "design profiler"
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/podcatcher/dev.adorilabs.com.har"
+  "dev.adorilabs.com.har"
   'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode auto-revert-mode global-auto-revert-mode company-mode)
-  313
-  '(508 nil)
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode global-auto-revert-mode company-mode)
+  1991
+  '(1991 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1991 1992 307 1 1 1))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/demo/ids.clj"
-  "ids.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  2824
-  '(10051 nil)
+(desktop-create-buffer 208
+  "/home/puneet/.emacs.d/settings/package-settings.el"
+  "package-settings.el"
+  'emacs-lisp-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode)
+  3288
+  '(3288 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t)))
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (3288 3288))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/docs/todo"
-  "todo"
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/podcatcher/signup_process"
+  "signup_process"
   'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode auto-revert-mode global-auto-revert-mode company-mode)
-  805
-  '(1782 nil)
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode global-auto-revert-mode company-mode)
+  577
+  '(577 nil)
   nil
   nil
-  '((buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
+  '((buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (577 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1))))
 
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/util.clj"
-  "util.clj"
-  'clojure-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode eldoc-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode company-mode)
-  632
-  '(27 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/puneet/code/work/controlroom/controlroom-api-poc/docs/design"
-  "design"
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/config/.my.adori.dev.cnf"
+  ".my.adori.dev.cnf"
   'fundamental-mode
-  '(override-global-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode auto-revert-mode global-auto-revert-mode company-mode)
-  2125
-  '(1763 nil)
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode auto-revert-mode global-auto-revert-mode company-mode)
+  212
+  '(212 nil)
   nil
   nil
-  '((buffer-file-coding-system . iso-latin-1-unix) (truncate-lines . t)))
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (212 212 212 212))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/geekskool/nilenso/maze/project.clj"
+  "project.clj"
+  'clojure-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  463
+  '(369 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (336 463 463 318 280 463 463 462 463))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/audio_collection.py"
+  "audio_collection.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1210
+  '(1210 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1210 1210 1210 1210 1210 1210 1210 1210 1115 1269 1269 1269 1269 1269 1269 1269))))
+
+(desktop-create-buffer 208
+  "/home/puneet/.emacs.d/elpa/goto-chg-20131228.659/goto-chg-autoloads.el"
+  "goto-chg-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode)
+  391
+  '(391 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (391 391 391 1 391 391))))
+
+(desktop-create-buffer 208
+  "/home/puneet/Downloads/parsed_rss"
+  "parsed_rss"
+  'fundamental-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode yas-minor-mode helm-mode global-auto-revert-mode company-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((overwrite-mode) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/custom_types.py"
+  "custom_types.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/base.py"
+  "base.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1717
+  '(1717 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1717 996 924 901 901 919 924 993 996 1398 2171 2185 2197 2170 2185 2196))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/requirements.txt"
+  "requirements.txt"
+  'text-mode
+  '(override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode)
+  169
+  '(169 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (169 169))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/work/controlroom/controlroom-api-poc/src/data/init.clj"
+  "init.clj"
+  'clojure-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1 2923 2923 2923))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/geekskool/best_plan/src/best_plan/convert_csv.clj"
+  "convert_csv.clj"
+  'clojure-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode cider-mode paredit-mode clj-refactor-mode hs-minor-mode flycheck-mode auto-revert-mode global-auto-revert-mode company-mode rainbow-delimiters-mode aggressive-indent-mode subword-mode)
+  5115
+  '(5115 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (5115 5115 1373 1373 1373 1373))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/middleware/transaction.py"
+  "transaction.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1399
+  '(1399 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/models/create_tables.py"
+  "create_tables.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1690
+  '(1571 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1571 1572 893 1854))))
+
+(desktop-create-buffer 208
+  "/home/puneet/code/adori/Backend/falcon_server/resources/hooks.py"
+  "hooks.py"
+  'python-mode
+  '(eldoc-mode override-global-mode undo-tree-mode projectile-mode linum-mode git-gutter-mode yas-minor-mode helm-mode paredit-mode flycheck-mode auto-revert-mode global-auto-revert-mode elpy-mode company-mode highlight-indentation-mode rainbow-delimiters-mode)
+  1111
+  '(1111 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1111 1111 1111 1112 1330 1330 1330 1330 1483 1483 1483))))
 

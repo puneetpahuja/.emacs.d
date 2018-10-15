@@ -7,6 +7,7 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+
 (add-to-list 'load-path (concat user-emacs-directory "settings"))
 
 (require 'package-settings)
@@ -17,6 +18,13 @@
 (add-to-list 'load-path "~/.emacs.d/customizations")
 (require 'lockstep)
 
+(require 'undo-tree)
+;; (global-undo-tree-mode)
+
+(add-to-list 'load-path "~/.emacs.d/evil")
+(require 'evil)
+(evil-mode 1)
+
 ;; Sets up exec-path-from-shell so that Emacs will use the correct
 ;; environment variables
 (load "shell-integration.el")
@@ -25,12 +33,15 @@
 ;; switch buffers, and choose options from the minibuffer.
 (load "navigation.el")
 
+(define-key special-event-map [config-changed-event] #'ignore)
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:height 110 :family "pfdin")))))
+ '(default ((t (:height 140 :family "pfdin")))))
+
 
 ;; These customizations change the way emacs looks and disable/enable
 ;; some user interface elements
@@ -90,11 +101,11 @@
  '(haskell-process-auto-import-loaded-modules t)
  '(haskell-process-log t)
  '(haskell-process-suggest-remove-import-lines t)
- '(haskell-process-type (quote stack-ghci))
+ '(haskell-process-type (quote ghci))
  '(haskell-tags-on-save t)
  '(package-selected-packages
    (quote
-    (undo-tree evil clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
+    (linum-relative py-autopep8 ein elpy clojure-mode use-package thesaurus tagedit smex rainbow-delimiters noflet markdown-mode ido-ubiquitous helm-projectile helm-ls-git helm-git-grep helm-descbinds helm-ag haml-mode git-gutter dockerfile-mode crux company clj-refactor aggressive-indent ag adoc-mode adjust-parens exec-path-from-shell))))
 
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
@@ -188,7 +199,7 @@ Similar to how `quoted-insert' works in a regular buffer."
                           :background "gray30"
                           :height 130
                           ; :weight 'ultra-bold
-                          :family "architect's daughter")))
+                          :family "architects daughter")))
 
 ;; (defun my-buffer-face-mode-variable ()
 ;;   "Set font to a variable width (proportional) fonts in current buffer"
@@ -292,8 +303,8 @@ Similar to how `quoted-insert' works in a regular buffer."
 (add-hook 'company-completion-cancelled-hook 'company-maybe-turn-on-fci)
 
 
-(savehist-mode 1)
-(add-to-list 'savehist-additional-variables 'kill-ring)
+;; (savehist-mode 1)
+;; (add-to-list 'savehist-additional-variables 'kill-ring)
 
 ;; hideshow - code folding
 
@@ -326,7 +337,7 @@ Similar to how `quoted-insert' works in a regular buffer."
 
 ;; haskell config
 (add-hook 'haskell-mode-hook #'hindent-mode)
-(add-hook 'haskell-mode-hook #'enable-paredit-mode)
+;; (add-hook 'haskell-mode-hook #'enable-paredit-mode)
 
 (eval-after-load 'haskell-mode
           '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
@@ -376,3 +387,27 @@ Similar to how `quoted-insert' works in a regular buffer."
     (cider-namespace-refresh))))))
 
 (define-key clojure-mode-map (kbd "C-c C-r") 'cider-namespace-refresh)
+
+(setq-default line-spacing 0.2)
+
+
+;; python settings
+
+(elpy-enable)
+(setq python-shell-interpreter "ipython"
+      python-shell-interpreter-args "-i --simple-prompt")
+
+;; use flycheck not flymake with elpy
+(when (require 'flycheck nil t)
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
+
+;; enable autopep8 formatting on save
+;; (require 'py-autopep8)
+;; (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+
+;; relative line number
+(require 'linum-relative)
+(linum-relative-mode)
+(setq linum-relative-current-symbol "")

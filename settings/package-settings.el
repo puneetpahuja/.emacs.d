@@ -109,6 +109,11 @@
     ag
     ;enh-ruby-mode
 
+    ;;python packages
+
+    ein
+    elpy
+    py-autopep8
     ))
 
  (dolist (p my-packages)
